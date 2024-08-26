@@ -9,7 +9,7 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur 
 - [PHP](https://www.php.net/) (version 8.0 ou supérieure)
 - [Composer](https://getcomposer.org/) (gestionnaire de dépendances PHP)
 - [MySQL](https://www.mysql.com/) (ou un autre SGBD compatible avec Laravel)
-- [Laravel](https://laravel.com/) (installé via Composer)
+- [Laravel](https://laravel.com/) (installé via Composer, version 11 ou supérieur)
 
 ## Installation
 
@@ -44,7 +44,7 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur 
 
     ```env
     DB_CONNECTION=sqlite
-    DB_DATABASE=D:\Saabre\ContactsAPIv2\contactsAPI.db
+    DB_DATABASE=*:\***\ContactsAPIv2\contactsAPI.db ( modifier le chemain complet )
     DB_USERNAME=root
     DB_PASSWORD=saabre
     ```
