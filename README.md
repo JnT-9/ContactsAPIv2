@@ -44,10 +44,12 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur 
 
     ```env
     DB_CONNECTION=sqlite
-    DB_DATABASE=*:\***\ContactsAPIv2\contactsAPI.db ( modifier le chemain complet, elle est déjà existante à la racine du projet pour faciliter l'instalation )
+    DB_DATABASE=*:\***\ContactsAPIv2\contactsAPI.db
     DB_USERNAME=root
     DB_PASSWORD=saabre
     ```
+    Modifier le chemain complet DB_DATABASE
+    La base est déjà existante à la racine du projet pour faciliter l'instalation.
 
 ## Utilisation
 
